@@ -10,3 +10,11 @@ h2 {
   background-color: #FFDE7A;
   padding: 2%;
 }
+article {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 200px;
+     -moz-column-width: 200px;
+          column-width: 200px;
+}
